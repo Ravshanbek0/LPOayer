@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.body {
+  background-color: rgb(221, 217, 217);
+}
+
+.body.active {
+  background-color: #202C36;
+}
+
+.container {
+  max-width: 1360px;
+  margin: 0 auto;
+}

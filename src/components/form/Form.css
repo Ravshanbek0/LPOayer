@@ -1,0 +1,52 @@
+form {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 80px;
+}
+
+form label {
+  padding: 18px 32px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.body.active form label {
+  background: #2B3844;
+  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+}
+
+.searchState {
+  border: none;
+  outline: none;
+}
+
+.body.active .searchState{
+  color: white;
+  background-color: #2B3844;
+}
+
+.body.active .searchState::placeholder {
+  color: white;
+}
+
+.regionFilter {
+  padding: 18px 24px;
+  width: 200px;
+  background-color: white;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+}
+
+.body.active .regionFilter {
+  background: #2B3844;
+  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+  color: white;
+}
